@@ -1,0 +1,7 @@
+TODO:
+
+-make all paths relative
+-Build an interface for the user to change the theme color
+-Design the website nicer
+-Make the game more intuitive
+-Build a database that can store songs

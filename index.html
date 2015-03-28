@@ -1,0 +1,119 @@
+<HTML>
+<head>
+  <title>Music</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css"></link>
+</head>
+<body>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquerycolor.js"></script>
+  <script type="text/javascript" src="soundMan/script/soundmanager2.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+  <div id="piano">
+    <div id="black">
+      <div id="firsts" class="playParent">
+        <div id="csharp">
+          <p>C#</p>
+        </div>
+        <div id="eb">
+          <p>Eb</p>
+        </div>
+      </div>
+      <div id="seconds" class="playParent">
+        <div id="fsharp">
+          <p>F#</p>
+        </div>
+        <div id="ab">
+          <p>Ab</p>
+        </div>
+        <div id="bb">
+          <p>Bb</p>
+        </div>
+      </div>
+    </div>
+    <div id="white" class="playParent">
+      <div id="c">
+        <p>C</p>
+      </div>
+      <div id="d">
+        <p>D</p>
+      </div>
+      <div id="e">
+        <p>E</p>
+      </div>
+      <div id="f">
+        <p>F</p>
+      </div>
+      <div id="g">
+        <p>G</p>
+      </div>
+      <div id="a">
+        <p>A</p>
+      </div>
+      <div id="b">
+        <p>B</p>
+      </div>
+      <div id="z">
+        <p>C</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="controls">
+    <div id="play" class="control">
+      <p>Play</p>
+    </div>
+
+    <!--
+    <div id="stop" class="control">
+      <p>Stop</p>
+    </div>   
+
+    <div id="generate" class="control">
+      <p>Generate</p>
+    </div>
+    -->
+
+    <div id="attempt" class="control">
+      <p>Record</p>
+    </div>
+
+    <div id="submit" class="control">
+      <p>Submit</p>
+    </div>
+
+
+    <form>
+      <input id="keyCheckBox" type="checkbox" name="vehicle" value="Bike"> Choose Key: <p id="keyDisplay">C</p>
+      <input id="watch" type="checkbox" name="vehicle" value="Bike"> Watch Notes
+    </form>
+
+
+    <p class="title">Score:</p>
+    <p id="scoreDisplay" class="display">0</p>
+    <br></br>
+    <p class="title">Listens:</p>
+    <p id="listensDisplay" class="display">3</p>
+    <br></br>
+    <p class="title">Notes:</p>
+    <p id="notesDisplay" class="display"></p>
+  </div>
+
+  <div id="infoBox">
+    <ul id="info">
+      <li>
+        Click play to hear a swaggy song.
+      </li>
+      <li>
+        Hit record and play some notes to record your own song.
+      </li>
+      <li>
+        Click sumbit when you think you've copied my song.
+      </li>
+      <li>
+        Use the "z" to "," keys to play it like a piano.
+      </li>
+    </ul>
+    </p>
+  </div>  
+</body>
